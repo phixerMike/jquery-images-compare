@@ -436,7 +436,7 @@
         });
     };
 
-})(jQuery, window, document);
+})($, window, document);
 
 // http://www.jacklmoore.com/notes/naturalwidth-and-naturalheight-in-ie/
 (function ($) {
@@ -468,4 +468,4 @@
         }('natural' + prop, prop.toLowerCase()));
         /*jslint loopfunc: false */
     }
-}(jQuery));
+}($));
